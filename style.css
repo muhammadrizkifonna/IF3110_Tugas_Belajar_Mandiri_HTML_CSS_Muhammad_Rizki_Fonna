@@ -1,14 +1,19 @@
 *
 {
     box-sizing:border-box;
-    background-color: aquamarine;
+    background-color: #009FB7;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
 }
+
+/*Navbar*/
 
 a, li, button
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
-    color: brown;
+    color: white;
     font-weight:550;
     text-decoration: none;
 
@@ -28,15 +33,23 @@ header
 
 .brand
 {
+    margin-left:0;
     cursor:pointer;
     transition: all 0.5s ease-in 0s;
     margin-right: auto;
 }
 
+
+
 .brand:hover
 {
-    color:blue;
+    color: #272838;
     
+}
+
+.brand a
+{
+    font-size: 25px;
 }
 
 .menu_nb
@@ -46,7 +59,7 @@ header
 .menu_nb li
 {
     display: inline-block;
-    padding: 8px 28px;
+    padding: 8px 10px;
 }
 
 .menu_nb li a
@@ -55,15 +68,16 @@ header
 }
 .menu_nb li a:hover
 {
-    color:blue;
+    color: #272838;
 }
 
 button
 {
-    margin-right:0px;
+    /*margin-right:10px;*/
     color:white;
     padding: 5px 20px;
     background-color: blueviolet;
+    opacity:1;
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -73,6 +87,40 @@ button
 
 button:hover
 {
-    background-color: rgba(0, 130, 160, 0.8);
+    opacity:0.4;
 
 }
+
+/*Navbar(End)*/
+
+
+/*Main*/
+
+.blog-main
+{
+    background: url('img/traveling.jpg');
+    background-size: cover;
+    height: 90vh;
+}
+
+
+/*
+main .blog-main
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top_centered
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+
+
+
+/*Main(End)*/
