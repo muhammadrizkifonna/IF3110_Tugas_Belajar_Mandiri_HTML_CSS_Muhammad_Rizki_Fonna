@@ -4,27 +4,39 @@
     background-color: aquamarine;
 }
 
-a, li
+a, li, button
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: brown;
     font-weight:550;
+    text-decoration: none;
 
 }
 
 header
 {
     display: flex;
-    justify-content: space-between;
-    align-items: right;
-    padding: 20px 9%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    /*background-color: black;*/
 
 }
+
+
 
 .brand
 {
     cursor:pointer;
+    transition: all 0.5s ease-in 0s;
+    margin-right: auto;
+}
+
+.brand:hover
+{
+    color:blue;
+    
 }
 
 .menu_nb
@@ -34,7 +46,7 @@ header
 .menu_nb li
 {
     display: inline-block;
-    padding: 0px 8px;
+    padding: 8px 28px;
 }
 
 .menu_nb li a
@@ -44,4 +56,23 @@ header
 .menu_nb li a:hover
 {
     color:blue;
+}
+
+button
+{
+    margin-right:0px;
+    color:white;
+    padding: 5px 20px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease-in 0s;
+
+}
+
+button:hover
+{
+    background-color: rgba(0, 130, 160, 0.8);
+
 }
