@@ -1,4 +1,4 @@
-/*
+
 body
 {
     box-sizing:border-box;
@@ -7,7 +7,7 @@ body
     padding:0;
     overflow-x:hidden;
 }
-*/
+
 
 
 
@@ -165,12 +165,13 @@ button:hover
     grid-template-areas: "image" "text" "button";
 
     border-radius: 18px;
-    background: inherit;
+    background: purple;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     text-align: center;
     width:22%;
     height:1%;
-    margin-left:10px;
+    margin-left:20px;
+    margin-right:20px;
     float:left;
 
 }
